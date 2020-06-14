@@ -4,16 +4,28 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@storybook/vue": "^5.3.19",
+    "@storybook/addon-viewport": "^5.3.19",
     "core-js": "^2.6.5",
+    "element-ui": "^2.13.2",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-notes": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/vue": "^5.3.19",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
     "vue-template-compiler": "^2.6.10"
   }
 }
